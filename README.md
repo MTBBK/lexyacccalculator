@@ -12,6 +12,7 @@ gcc -o calculator lex.yy.c y.tab.c -ll -lm
 veya doğrudan "yap" dosyasını
 ` ./yap `
 komutu ile çalıştırabilirsiniz.
+
 Programa verebileceğiniz girdiler:
 ` +, -, *, /, (, ), **, ^ `
 
