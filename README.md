@@ -1,4 +1,4 @@
-#Adventures of Lex and Yacc
+# Adventures of Lex and Yacc
 Basit bir lex yacc hesap makinesi.
 
 Derlemek ve çalıştırmak için:
@@ -10,12 +10,12 @@ gcc -o calculator lex.yy.c y.tab.c -ll -lm
 ```
 
 veya doğrudan "yap" dosyasını
-''./yap''
+` ./yap `
 komutu ile çalıştırabilirsiniz.
 Programa verebileceğiniz girdiler:
-+, -, *, /, (, ), **, ^
+` +, -, *, /, (, ), **, ^ `
 
-##Örnekler:
+## Örnekler:
 Girdi: (3+20)*2
 Çıktı: 4.000000
 
